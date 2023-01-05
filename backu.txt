@@ -1,0 +1,91 @@
+        #student button 2 detect face
+        img6=Image.open(r"D:\mini\images\button2.jpeg")
+        img6=img6.resize((220,220),Image.ANTIALIAS)
+        self.photoimg5=ImageTk.PhotoImage(img6)
+
+        b1=Button(bg_img,image=self.photoimg5,cursor="hand2",bg="silver")
+        b1.place(x=500,y=100,width=220,height=220)
+
+        b1=Button(bg_img,text="Face Detector",cursor="hand1",font=("times new roman",15,"bold"),bg="darkblue",fg="white")
+        b1.place(x=500,y=300,width=220,height=40)
+
+        #student button 3 Attendance
+        img5=Image.open(r"D:\mini\images\button3.webp")
+        img5=img5.resize((220,220),Image.ANTIALIAS)
+        self.photoimg5=ImageTk.PhotoImage(img5)
+
+        b1=Button(bg_img,image=self.photoimg5,cursor="hand2",bg="silver")
+        b1.place(x=800,y=100,width=220,height=220)
+
+        b1=Button(bg_img,text="Attendance",cursor="hand1",font=("times new roman",15,"bold"),bg="darkblue",fg="white")
+        b1.place(x=800,y=300,width=220,height=40)
+
+        #student button 4 Help 
+        img6=Image.open(r"D:\mini\images\button4.jpg")
+        img6=img6.resize((220,220),Image.ANTIALIAS)
+        self.photoimg5=ImageTk.PhotoImage(img6)
+
+        b1=Button(bg_img,image=self.photoimg5,cursor="hand2",bg="silver")
+        b1.place(x=1100,y=100,width=220,height=220)
+
+        b1=Button(bg_img,text="Help Desk",cursor="hand1",font=("times new roman",15,"bold"),bg="darkblue",fg="white")
+        b1.place(x=1100,y=300,width=220,height=40)
+
+        #student button 5 Train
+        img7=Image.open(r"D:\mini\images\button5.jpg")
+        img7=img7.resize((220,220),Image.ANTIALIAS)
+        self.photoimg5=ImageTk.PhotoImage(img7)
+
+        b1=Button(bg_img,image=self.photoimg5,cursor="hand2",bg="silver")
+        b1.place(x=100,y=400,width=220,height=220)
+
+        b1=Button(bg_img,text="Tain Data",cursor="hand1",font=("times new roman",15,"bold"),bg="darkblue",fg="white")
+        b1.place(x=100,y=600,width=220,height=40)
+
+        #button 6 Photos
+        img8=Image.open(r"D:\mini\images\button6.jpg")
+        img8=img8.resize((220,220),Image.ANTIALIAS)
+        self.photoimg5=ImageTk.PhotoImage(img8)
+
+        b1=Button(bg_img,image=self.photoimg5,cursor="hand2",bg="silver")
+        b1.place(x=500,y=400,width=220,height=220)
+
+        b1=Button(bg_img,text="Photos",cursor="hand1",font=("times new roman",15,"bold"),bg="darkblue",fg="white")
+        b1.place(x=500,y=600,width=220,height=40)
+
+        #student button 7 Developer
+        img9=Image.open(r"D:\mini\images\button7.png")
+        img9=img9.resize((220,220),Image.ANTIALIAS)
+        self.photoimg5=ImageTk.PhotoImage(img9)
+
+        b1=Button(bg_img,image=self.photoimg5,cursor="hand2",bg="silver")
+        b1.place(x=800,y=400,width=220,height=220)
+
+        b1=Button(bg_img,text="Developer",cursor="hand1",font=("times new roman",15,"bold"),bg="darkblue",fg="white")
+        b1.place(x=800,y=600,width=220,height=40)
+
+        #student button 8 Exit
+        img10=Image.open(r"D:\mini\images\button8.png")
+        img10=img10.resize((220,220),Image.ANTIALIAS)
+        self.photoimg5=ImageTk.PhotoImage(img10)
+
+        b1=Button(bg_img,image=self.photoimg5,cursor="hand2",bg="silver")
+        b1.place(x=1100,y=400,width=220,height=220)
+
+        b1=Button(bg_img,text="Exit",cursor="hand1",font=("times new roman",15,"bold"),bg="darkblue",fg="white")
+        b1.place(x=1100,y=600,width=220,height=40)
+
+
+
+if __name__=="__main__":
+    root=Tk()
+    obj=face_recognition(root)
+    root.mainloop()
+
+        def student_details(self):
+        self.new_window=Toplevel(self.root)
+        self.app=student(self.new_window)
+
+
+
+        command=self.student_details
